@@ -2,7 +2,7 @@ package edu.andre.segundasemana;
 
 public class BoletimEstudantil {
     public static void main(String[] args) {
-        int mediaFinal = 5;
+        double mediaFinal = 8.5;
 
         if (mediaFinal < 6) {
             System.out.println("Aluno Reprovado!");
