@@ -1,3 +1,4 @@
+package edu.andre.primeirasemana;
 public class MinhaClasseAula2 {
     public static void main(String[] args) {
 
