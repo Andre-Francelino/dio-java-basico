@@ -1,9 +1,9 @@
 public class OperadoresRelacionaisDois {
     public static void main(String[] args) {
 
-        String nomeBanda1 = "Black Sabbath";
-        String nomeBanda2 = "Black Sabbath";
-        String nomeBandaObjeto = new String("Black Sabbath");
+        String nomeBanda1 = "RESGATE";
+        String nomeBanda2 = "RESGATE";
+        String nomeBandaObjeto = new String("RESGATE");
 
         System.out.println(nomeBanda1 == nomeBanda2);
         System.out.println(nomeBanda1 == nomeBandaObjeto);
@@ -13,6 +13,6 @@ public class OperadoresRelacionaisDois {
         // ambos objetos estão em locais diferentes na memória
         System.out.println(nomeBanda1.equals(nomeBandaObjeto));
         System.out.println(nomeBanda2.equals(nomeBandaObjeto));
-        
+
     }
 }
