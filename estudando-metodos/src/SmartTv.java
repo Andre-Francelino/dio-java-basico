@@ -1,9 +1,11 @@
 public class SmartTv {
+
     boolean ligada = false;
     int canal = 1;
     int volume = 25;
+    // Os atributos acima estão disponíveis no escopo de toda a classe SmartTv.
 
-
+    // O parâmetro novoCanal só está disponível dentro desse escopo do método mudarCanal.
     public void mudarCanal (int novoCanal){
         if(ligada == true) {
             canal = novoCanal;
