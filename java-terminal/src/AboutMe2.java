@@ -24,9 +24,12 @@ public class AboutMe2 {
         System.out.println("Em qual empresa você trabalha? ");
         String empresa = scanner.next();
 
+        scanner.close();
+
         System.out.println("Olá, me chamo " + nome + " " + sobrenome);
         System.out.println("Tenho " + idade + " anos ");
-        System.out.println("Minha altura é de " + altura + "cm ");
+        System.out.println("Minha altura é de " + altura + " cm");
         System.out.println("Trabalho como " + profissao + " na empresa " + empresa + ".");
+
     }
 }
