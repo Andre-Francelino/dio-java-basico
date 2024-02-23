@@ -1,13 +1,15 @@
-public class CaixaEletronico {
-    //Condicional Simples
+public class CaixaEletronico2 {
+    // Condicional Composta
 
     public static void main(String[] args) {
         double saldo = 25.0;
-        double valorSolicitado = 17.0;
+        double valorSolicitado = 26.0;
 
         if(valorSolicitado < saldo)
             saldo = saldo - valorSolicitado;
-
+        else
+            System.out.println("Saldo insuficiente");
+        
         System.out.println(saldo);
     }
 }
