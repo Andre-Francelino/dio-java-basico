@@ -3,7 +3,7 @@ public class CaixaEletronico3 {
 
     /*
         Quando há duas ou mais instruções em uma condicional 
-        é preciso necessário adcionar um bloco utilizando chaves { }
+        é necessário adcionar um bloco utilizando chaves { }
     */ 
 
     public static void main(String[] args) {
